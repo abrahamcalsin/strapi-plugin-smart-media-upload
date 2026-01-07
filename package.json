@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-smart-media-upload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An advanced Strapi v5 plugin for efficient file uploads with direct folder targeting via API.",
   "type": "commonjs",
   "main": "./dist/server/index.js",
@@ -16,8 +16,7 @@
     }
   },
   "files": [
-    "dist",
-    "assets"
+    "dist"
   ],
   "scripts": {
     "build": "strapi-plugin build",
