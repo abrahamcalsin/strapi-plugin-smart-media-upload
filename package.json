@@ -1,0 +1,55 @@
+{
+  "name": "strapi-plugin-smart-media-upload",
+  "version": "1.0.0",
+  "description": "An advanced Strapi v5 plugin for efficient file uploads with direct folder targeting via API.",
+  "type": "commonjs",
+  "exports": {
+    "./package.json": "./package.json",
+    "./strapi-server": {
+      "types": "./dist/server/src/index.d.ts",
+      "source": "./server/src/index.ts",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "strapi-plugin build",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link",
+    "verify": "strapi-plugin verify",
+    "test:ts:back": "run -T tsc -p server/tsconfig.json"
+  },
+  "devDependencies": {
+    "@strapi/sdk-plugin": "^5.4.0",
+    "@strapi/strapi": "^5.33.1",
+    "@strapi/types": "5.33.1",
+    "@strapi/typescript-utils": "^5.33.1",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@strapi/sdk-plugin": "^5.4.0",
+    "@strapi/strapi": "^5.33.1"
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "smart-media-upload",
+    "displayName": "Smart Media Upload Plugin",
+    "description": "Effortlessly upload files to specific Strapi Media Library folders via a dedicated API endpoint."
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "upload",
+    "media",
+    "folders",
+    "v5",
+    "smart-upload"
+  ],
+  "license": "MIT",
+  "author": "Strapi Developer"
+}
