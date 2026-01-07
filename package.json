@@ -53,5 +53,14 @@
     "smart-upload"
   ],
   "license": "MIT",
-  "author": "Strapi Developer"
+  "author": "Abraham Calsin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrahamcalsin/strapi-plugin-smart-media-upload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abrahamcalsin/strapi-plugin-smart-media-upload/issues"
+  },
+  "homepage": "https://github.com/abrahamcalsin/strapi-plugin-smart-media-upload#readme"
 }
+
