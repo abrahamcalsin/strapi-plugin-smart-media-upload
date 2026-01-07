@@ -1,6 +1,10 @@
-# Strapi Plugin Smart Media Upload (v5)
+<p align="center">
+  <img src="assets/smart-media-upload-logo.png" width="120" alt="Smart Media Upload Logo">
+</p>
 
-An advanced Strapi v5 plugin that provides an intelligent API endpoint for direct file uploads to specific folders in the Media Library.
+<h1 align="center">Strapi Plugin Smart Media Upload (v5)</h1>
+
+<p align="center">An advanced Strapi v5 plugin that provides an intelligent API endpoint for direct file uploads to specific folders in the Media Library.</p>
 
 ## Features
 
