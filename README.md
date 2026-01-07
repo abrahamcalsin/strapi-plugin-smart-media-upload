@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/smart-media-upload-logo.png" width="120" alt="Smart Media Upload Logo">
+  <img src="https://res.cloudinary.com/abrahamcalsin/image/upload/v1767803355/Smart%20Media%20Upload%20-%20NPM/smart-media-upload-logo_mskpi4.png" width="120" alt="Smart Media Upload Logo">
 </p>
 
 <h1 align="center">Strapi Plugin Smart Media Upload (v5)</h1>
